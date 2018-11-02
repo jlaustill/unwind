@@ -1,0 +1,34 @@
+{
+  "name": "unwind",
+  "version": "1.0.0",
+  "description": "MongoDB unwind for javascript.",
+  "main": "/build/unwind.js",
+  "scripts": {
+    "build": "./node_modules/.bin/babel ./unwind.js --out-file build/unwind.js",
+    "test": "./node_modules/jest-cli/bin/jest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlaustill/unwind.git"
+  },
+  "keywords": [
+    "unwind",
+    "mongodb",
+    "javascript"
+  ],
+  "author": "Joshua Lawrence Austill",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jlaustill/unwind/issues"
+  },
+  "homepage": "https://github.com/jlaustill/unwind#readme",
+  "dependencies": {
+    "lodash": "4.17.11"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-1": "^6.24.1",
+    "jest-cli": "^23.6.0"
+  }
+}
