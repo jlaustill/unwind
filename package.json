@@ -1,6 +1,6 @@
 {
   "name": "@jlaustill/unwind",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "MongoDB unwind for javascript.",
   "main": "build/unwind.js",
   "scripts": {
