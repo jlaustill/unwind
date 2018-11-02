@@ -1,0 +1,10 @@
+language: javascript
+node_js:
+  - "10"
+before_install:
+  rm build/unwind.js
+install:
+  npm i
+script:
+  npm test
+  npm run build
