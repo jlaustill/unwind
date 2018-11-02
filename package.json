@@ -2,7 +2,7 @@
   "name": "@jlaustill/unwind",
   "version": "1.0.2",
   "description": "MongoDB unwind for javascript.",
-  "main": "/build/unwind.js",
+  "main": "build/unwind.js",
   "scripts": {
     "build": "./node_modules/.bin/babel ./unwind.js --out-file build/unwind.js",
     "test": "./node_modules/jest-cli/bin/jest.js"
