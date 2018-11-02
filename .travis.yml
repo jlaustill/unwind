@@ -5,4 +5,5 @@ install:
   - npm i
 script:
   - npm test
+  - mkdir build
   - npm run build
