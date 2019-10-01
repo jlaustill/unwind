@@ -3,9 +3,9 @@ import isArray from 'lodash/isArray';
 
 export const unwind = (array, field) => {
   if (isArray(array)) {
-    return flatten(array.map((input) => {
+    return flatten(array.map(input => {
       if (isArray(input[field])) {
-        return input[field].map((i) => {
+        return input[field].map(i => {
           const output = { ...input };
           output[field] = i;
 
