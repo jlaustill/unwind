@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/jlaustill/unwind#readme",
   "dependencies": {
-    "lodash": "4.17.11"
+    "lodash": "4.17.19"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
